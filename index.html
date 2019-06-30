@@ -1,0 +1,154 @@
+<!-- pruba chelita-->
+<html>
+    <head>
+         <title>Chelita</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <style type="text/css">
+            .jumbotron {
+                background-image: url(background.jpg);
+                color: aliceblue;
+                margin-top: 50px;
+                
+            }
+            #Resumen{
+                text-align: center;
+            }
+            #footer{
+                background-color:dodgerblue ;
+                padding-top: 50px;
+                margin-top: 50px;
+                text-align: center !important;
+                padding-bottom: 150px;
+                height: 350px;
+                
+            }
+            body{
+                position: relative:
+            }
+            
+            
+        </style>
+        
+       
+            
+    </head>
+    <body data-spy="scroll" data-target="#navbar" data-offset="150">
+    
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar">
+          <a class="navbar-brand" href="#">Chelita</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#jumbotron">Inicio <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Resumen">Acerca de</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#Conoce">Conoce más</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="email" placeholder="Email">
+            <input class="form-control mr-sm-2" type="password" placeholder="Password">
+              <button class="btn btn-primary my-2 my-sm-0" type="submit">Login</button>
+            </form>
+          </div>
+        </nav>
+        <div class="jumbotron">
+          <h1 class="display-4" id="jumbotron">¡Consigue tu meta!</h1>
+          <p class="lead">Cuéntanos tus sueños, platicanos tus ideas y juntos expandamos tus fronteras.</p>
+          <hr class="my-4">
+          <p>¿deseas conocer más? ¡déjanos tu correo y te contactaremos en breve!</p>
+            <form>
+              <div class="form-row align-items-center">
+                <div class="col-auto">
+                  <label class="sr-only" for="inlineFormInput">Name</label>
+                  <input type="text" class="form-control mb-2" id="inlineFormInput" placeholder="Tu correo">
+                </div>
+                <div class="col-auto">
+                  <label class="sr-only" for="inlineFormInputGroup">Username</label>
+                  <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                      <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Tu dominio">
+                  </div>
+                </div>
+                
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-primary mb-2">Contactame</button>
+                </div>
+              </div>
+            </form>
+          
+        </div>
+        
+        <div class="container" id="Resumen">
+            <div class="row">
+                <h1 id="acecade">Tu equipo de trabajo</h1>
+                <p class="lead">Somos un equipo multidisciplinario en diversas áreas como son; TI, marketing, ciencia de datos etc. Con el cual podrás apoyarte en las dudas que tengas y también el equipo que te ayudará a llegar a tus metas.</p>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="card-deck">
+              <div class="card">
+                <img src="carlos.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Carlos Sánchez</h5>
+                  <p class="card-text">Ingeniero en comunicaciones y electrónica, estudiante de maestría en ciencias de la computación, apasionado de la ciencia de datos y de la música.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="alex.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Alexis Piña</h5>
+                  <p class="card-text">Ingeniero en sistemas automotrices, estudiante de la maestría en ciencia de la computación, solucionador de problemas nato, amante de las morritas y del deep learning.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="pavel.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pavel Solano</h5>
+                  <p class="card-text">Ingeniero en sistemas automotrices, estudiante de la maestría en computación, virtuoso del plasmar ideas y de aterrizar conceptos, aficionado de las buenas relaciones y de los negocios duraderos.</p>
+                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div >
+                <h2 id="Conoce">También nos puedes visitar en nuestra redes sociales </h2>
+                <p class="lead">Descubre nuestros trabajos y algunos clientes</p>
+                <p> <a href="https://www.facebook.com"><img src="face.png"></a>
+                    <a href="https://www.instagram.com"><img src="insta.png"></a>
+                     <a href=""><img src="whats.png"></a>
+                </p>
+            </div>
+        </div>
+        
+       
+
+
+        
+
+        
+        
+        <script src="jquery-3.3.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script type="text/javascript">
+            
+           
+        
+        </script>
+    </body>
+</html>
